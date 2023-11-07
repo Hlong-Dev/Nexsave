@@ -6,9 +6,12 @@ import { usePathname } from "next/navigation";
 import React, { ElementRef, useEffect, useRef, useState } from "react";
 import { useMediaQuery } from "usehooks-ts";
 import UserItems from "../user-item";
+import { useQuery } from "convex/react";
+import { api } from "@/convex/_generated/api";
 
 const MainNavigation = () => {
   const pathname = usePathname();
+  const documentList = useQuery(api.documents.get);
   const isMobile = useMediaQuery("(max-width:768px)");
 
   const isResizingRef = useRef<boolean>(false);
@@ -114,7 +117,9 @@ const MainNavigation = () => {
           <UserItems />
         </div>
         <div className="mt-4">
-          <p>Documents</p>
+          {documentList?.map((doc) => (
+            <p key={doc._id}>{doc.title}</p>
+          ))}
         </div>
         <div
           onMouseDown={handleMouseDown}
