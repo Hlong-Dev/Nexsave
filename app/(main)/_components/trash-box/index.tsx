@@ -1,5 +1,6 @@
 "use client";
 
+import ConfirmModal from "@/components/modal/confirm-modal";
 import Spinner from "@/components/spinner";
 import { Input } from "@/components/ui/input";
 import { api } from "@/convex/_generated/api";
@@ -44,11 +45,7 @@ const TrashBox = () => {
     });
   };
 
-  const onDelete = (
-    e: React.MouseEvent<HTMLDivElement, MouseEvent>,
-    documentId: Id<"documents">
-  ) => {
-    e.stopPropagation();
+  const onDelete = (documentId: Id<"documents">) => {
     const promise = remove({
       id: documentId,
     });
@@ -106,12 +103,14 @@ const TrashBox = () => {
               >
                 <Undo className="h-4 w-4 text-muted-foreground" />
               </div>
-              <div
-                role="button"
-                className="rounded-sm p-2 hover:bg-neutral-200 "
-              >
-                <Trash className="h-4 w-4 text-muted-foreground" />
-              </div>
+              <ConfirmModal onConfirm={() => onDelete(doc._id)}>
+                <div
+                  role="button"
+                  className="rounded-sm p-2 hover:bg-neutral-200"
+                >
+                  <Trash className="h-4 w-4 text-muted-foreground" />
+                </div>
+              </ConfirmModal>
             </div>
           </div>
         ))}
