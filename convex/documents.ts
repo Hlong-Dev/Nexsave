@@ -192,3 +192,21 @@ export const create = mutation({
     return document;
   },
 });
+
+export const getSearch = query({
+  handler: async (ctx, args) => {
+    const userIdentify = await ctx.auth.getUserIdentity();
+    if (!userIdentify) {
+      throw new Error("Must authenticated first!");
+    }
+    const userId = userIdentify.subject;
+    const documents = await ctx.db
+      .query("documents")
+      .withIndex("by_user", (q) => q.eq("userId", userId))
+      .filter((q) => q.eq(q.field("isArchived"), false))
+      .order("desc")
+      .collect();
+
+    return documents;
+  },
+});
