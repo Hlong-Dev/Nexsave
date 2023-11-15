@@ -1,6 +1,5 @@
 "use client";
 import { api } from "@/convex/_generated/api";
-import { useSearch } from "@/hooks/useSearch";
 import { useQuery } from "convex/react";
 import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
@@ -13,6 +12,7 @@ import {
   CommandList,
 } from "../ui/command";
 import { File } from "lucide-react";
+import { useSearch } from "@/hooks/useSearch";
 
 const SearchCommand = () => {
   const router = useRouter();

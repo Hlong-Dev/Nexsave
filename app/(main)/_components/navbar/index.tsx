@@ -1,6 +1,5 @@
 "use client";
 
-import Spinner from "@/components/spinner";
 import { api } from "@/convex/_generated/api";
 import { Id } from "@/convex/_generated/dataModel";
 import { useQuery } from "convex/react";
@@ -8,7 +7,8 @@ import { MenuIcon } from "lucide-react";
 import { useParams } from "next/navigation";
 import React from "react";
 import { Title } from "../title";
-import { Skeleton } from "@/components/ui/skeleton";
+import { Banner } from "../banner";
+import { Menu } from "../menu";
 
 interface NavbarProps {
   isCollapsed: boolean;
@@ -34,18 +34,24 @@ const Navbar = ({ isCollapsed, onResetWidth }: NavbarProps) => {
   }
 
   return (
-    <nav className="bg-background dark:bg-[#1f1f1f] px-3 py-2 w-full flex items-center gap-x-4">
-      {isCollapsed && (
-        <MenuIcon
-          role="button"
-          onClick={onResetWidth}
-          className="w-6 h-6 text-muted-foreground"
-        />
-      )}
-      <div className="flex w-full items-center justify-between">
-        <Title initialData={document} />
-      </div>
-    </nav>
+    <>
+      <nav className="bg-background dark:bg-[#1f1f1f] px-3 py-2 w-full flex items-center gap-x-4">
+        {isCollapsed && (
+          <MenuIcon
+            role="button"
+            onClick={onResetWidth}
+            className="w-6 h-6 text-muted-foreground"
+          />
+        )}
+        <div className="flex w-full items-center justify-between">
+          <Title initialData={document} />
+          <div className="flex items-center gap-x-2">
+            <Menu documentId={document._id} />
+          </div>
+        </div>
+      </nav>
+      {document.isArchived && <Banner documentId={document._id} />}
+    </>
   );
 };
 

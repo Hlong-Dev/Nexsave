@@ -25,9 +25,9 @@ import {
   PopoverTrigger,
 } from "@/components/ui/popover";
 import TrashBox from "../trash-box";
+import Navbar from "../navbar";
 import { useSearch } from "@/hooks/useSearch";
 import { useSetting } from "@/hooks/useSetting";
-import Navbar from "../navbar";
 
 const MainNavigation = () => {
   const pathname = usePathname();
@@ -178,7 +178,7 @@ const MainNavigation = () => {
       <div
         ref={navbarRef}
         className={cn(
-          "absolute top-0 z-[9999] left-60 w-[calc(100% - 240px)]",
+          "absolute top-0 z-[9999] left-60 w-[calc(100%-240px)]",
           isReseting && "transition-all ease-in-out duration-300",
           isMobile && "left-0 w-full"
         )}

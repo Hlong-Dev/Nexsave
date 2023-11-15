@@ -1,9 +1,9 @@
 "use client";
-import { useSetting } from "@/hooks/useSetting";
 import React from "react";
 import { Dialog, DialogContent, DialogHeader } from "../ui/dialog";
 import { Label } from "../ui/label";
 import { ThemeToggle } from "../theme-toggle";
+import { useSetting } from "@/hooks/useSetting";
 
 const SettingModal = () => {
   const setting = useSetting();

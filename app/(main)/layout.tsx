@@ -12,7 +12,6 @@ interface MainLayoutProps {
 }
 const MainLayout = ({ children }: MainLayoutProps) => {
   const { isAuthenticated, isLoading } = useConvexAuth();
-  console.log("Render", Date.now());
 
   if (isLoading) {
     return (
