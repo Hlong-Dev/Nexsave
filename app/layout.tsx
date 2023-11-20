@@ -16,13 +16,13 @@ export const metadata: Metadata = {
     icon: [
       {
         media: "(prefers-color-scheme: light)",
-        url: "/logo.svg",
-        href: "/logo.svg",
+        url: "/logo.png",
+        href: "/logo.png",
       },
       {
         media: "(prefers-color-scheme: dark)",
-        url: "/logo-dark.svg",
-        href: "/logo-dark.svg",
+        url: "/logo.png",
+        href: "/logo.png",
       },
     ],
   },
@@ -42,7 +42,7 @@ export default function RootLayout({
             defaultTheme="system"
             enableSystem
             disableTransitionOnChange
-            storageKey="jotion-theme"
+            storageKey="Notion-theme"
           >
             <EdgeStoreProvider>
               <Toaster position="top-right" />

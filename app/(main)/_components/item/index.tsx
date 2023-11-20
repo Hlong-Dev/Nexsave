@@ -72,7 +72,7 @@ const Item = ({
       if (!expanded) {
         onExpanded?.();
       }
-      // router.push(`/documents/${documentId}`);
+      router.push(`/documents/${documentId}`);
     });
 
     toast.promise(promise, {
@@ -119,7 +119,7 @@ const Item = ({
       {documentIcon ? (
         <div className="shrink h-[18px] mr-2">{documentIcon}</div>
       ) : (
-        <Icon className="shrink h-[18px] mr-2 text-muted-foreground" />
+        <Icon className="shrink h-[18px] w-[18px] mr-2 text-muted-foreground" />
       )}
       <span className="truncate ">{label}</span>
 

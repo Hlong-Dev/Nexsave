@@ -18,7 +18,7 @@ const SettingModal = () => {
           <div className="flex flex-col gap-1">
             <Label>Apperance</Label>
             <span className="text-xs text-muted-foreground mt-1">
-              Customize how Jotion look on your device
+              Customize how Notion look on your device
             </span>
           </div>
           <ThemeToggle />

@@ -45,7 +45,7 @@ const DocumentsPage = () => {
         className="dark:block hidden"
       />
       <h2 className="text-lg font-medium">
-        Welcome to {user.lastName}&apos;s Jotion
+        Welcome to {user.lastName}&apos;s Notion
       </h2>
       <Button onClick={onCreate}>
         <PlusCircle className="w-4 h-4 mr-2" />
