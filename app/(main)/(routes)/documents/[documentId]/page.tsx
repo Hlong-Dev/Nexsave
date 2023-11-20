@@ -1,5 +1,6 @@
 "use client";
 
+import Cover from "@/app/(main)/_components/cover";
 import { Toolbar } from "@/app/(main)/_components/toolbar";
 import { api } from "@/convex/_generated/api";
 import { Id } from "@/convex/_generated/dataModel";
@@ -26,6 +27,7 @@ const DocumentDetail = ({ params }: DocumentDetailProps) => {
 
   return (
     <div className="pb-40 pt-10">
+      <Cover url={document.coverImage} />
       <div className="md:max-w-3xl mx-auto lg:max-w-4xl">
         <Toolbar initialData={document} />
       </div>

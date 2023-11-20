@@ -5,6 +5,7 @@ import { Inter } from "next/font/google";
 import ConvexProvider from "@/components/providers/convex-provider";
 import { Toaster } from "sonner";
 import ModalProvider from "@/components/providers/modal-provider";
+import { EdgeStoreProvider } from "../lib/edgestore";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -43,9 +44,11 @@ export default function RootLayout({
             disableTransitionOnChange
             storageKey="jotion-theme"
           >
-            <Toaster position="top-right" />
-            <ModalProvider />
-            {children}
+            <EdgeStoreProvider>
+              <Toaster position="top-right" />
+              <ModalProvider />
+              {children}
+            </EdgeStoreProvider>
           </ThemeProvider>
         </ConvexProvider>
       </body>
