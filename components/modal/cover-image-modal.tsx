@@ -24,23 +24,28 @@ const CoverImageModal = () => {
   };
 
   const onChange = async () => {
-    if (file) {
-      setIsSubmitting(true);
+    if (!file) return;
 
-      const res = await edgestore.publicFiles.upload({
-        file,
-        onProgressChange: (progress) => {
-          console.log(progress);
+    setIsSubmitting(true);
+
+    const res = await edgestore.publicFiles.upload({
+      file,
+      ...(coverImage.url && {
+        options: {
+          replaceTargetUrl: coverImage.url,
         },
-      });
+      }),
+      onProgressChange: (progress) => {
+        console.log(progress);
+      },
+    });
 
-      await update({
-        id: params.documentId as Id<"documents">,
-        coverImage: res.url,
-      });
+    await update({
+      id: params.documentId as Id<"documents">,
+      coverImage: res.url,
+    });
 
-      onClose();
-    }
+    onClose();
   };
   return (
     <Dialog open={coverImage.isOpen} onOpenChange={onClose}>
