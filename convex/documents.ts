@@ -194,7 +194,7 @@ export const create = mutation({
 });
 
 export const getSearch = query({
-  handler: async (ctx, args) => {
+  handler: async (ctx) => {
     const userIdentify = await ctx.auth.getUserIdentity();
     if (!userIdentify) {
       throw new Error("Must authenticated first!");
