@@ -7,7 +7,7 @@
 
 ## About The Project
 
-[![Notion Clone][product-screenshot]](https://demo-airbnb-clone.vercel.app/)
+[![Notion Clone][product-screenshot]](https://demo-notion-clone.vercel.app/)
 
 This website is inspired by [Notion](https://www.notion.so/) and has been created solely for educational purposes. I hope you find something valuable to study in my project ❤️. If you have any questions or need assistance, please feel free to ask. Good luck with your learning journey!
 
@@ -142,7 +142,7 @@ Bui Ngoc - [Facebook](https://www.facebook.com/Bui.Ngoc.1302/)
 [stars-url]: https://github.com/ngoc2003/airbnb-clone/stargazers
 [issues-shield]: https://img.shields.io/github/issues/ngoc2003/airbnb-clone.svg?style=for-the-badge
 [issues-url]: https://github.com/ngoc2003/airbnb-clone/issues
-[product-screenshot]: public/images/demo.png
+[product-screenshot]: public/demo.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [Typescript.js]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white

@@ -12,20 +12,6 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Notion",
   description: "Notion website cloned by Bui Ngoc",
-  icons: {
-    icon: [
-      {
-        media: "(prefers-color-scheme: light)",
-        url: "/logo.png",
-        href: "/logo.png",
-      },
-      {
-        media: "(prefers-color-scheme: dark)",
-        url: "/logo.png",
-        href: "/logo.png",
-      },
-    ],
-  },
 };
 
 export default function RootLayout({
@@ -35,6 +21,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/logo.png" />
+        <link rel="apple-touch-icon" href="/demo.png" />
+      </head>
       <body className={inter.className}>
         <ConvexProvider>
           <ThemeProvider
