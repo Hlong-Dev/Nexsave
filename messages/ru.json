@@ -1,0 +1,93 @@
+{
+  "loading": {
+    "deleteNote": "Удаление записи...",
+    "restoreNote": "Восстановление записи...",
+    "createNote": "Создание новой записи...",
+    "archiveNote": "Архивирование записи...",
+    "publishNote": "Публикация записи...",
+    "unPublishNote": "Отмена публикации записи..."
+  },
+  "success": {
+    "deleteNote": "Запись удалена!",
+    "restoreNote": "Запись восстановлена!",
+    "createNote": "Запись создана!",
+    "archiveNote": "Запись архивирована!",
+    "publishNote": "Запись опубликована!",
+    "unPublishNote": "Публикация записи отменена!"
+  },
+  "error": {
+    "deleteNote": "Не удалось удалить запись.",
+    "restoreNote": "Не удалось восстановить запись.",
+    "createNote": "Не удалось создать новую запись.",
+    "archiveNote": "Не удалось архивировать запись.",
+    "publishNote": "Не удалось опубликовать запись.",
+    "unPublishNote": "Не удалось отменить публикацию записи."
+  },
+  "button": {
+    "restorePage": "Восстановить страницу",
+    "deleteForever": "Удалить навсегда",
+    "changeCover": "Изменить обложку",
+    "remove": "Удалить",
+    "archive": "Архив",
+    "addIcon": "Добавить иконку",
+    "addCover": "Добавить обложку",
+    "logOut": "Выйти",
+    "createNewNote": "Создать новую запись",
+    "enterNotion": "Войти в Notion",
+    "getNotionFree": "Получить бесплатный Notion",
+    "logIn": "Войти",
+    "goBack": "Назад",
+    "cancel": "Отмена",
+    "confirm": "Подтвердить",
+    "upload": "Загрузить",
+    "publish": "Опубликовать",
+    "unpublish": "Отменить публикацию"
+  },
+  "label": {
+    "thisPageIsInTheTrash": "Эта страница в корзине.",
+    "lastEditedBy": "Последнее редактирование: {{user}}",
+    "search": "Поиск",
+    "setting": "Настройки",
+    "newPage": "Новая страница",
+    "trash": "Корзина",
+    "addANewPage": "Добавить новую страницу"
+  },
+  "mainBanner": {
+    "sec1": "Ваши идеи, документы и планы. Объединенные. Добро пожаловать в",
+    "sec2": "Notion - это связанное рабочее пространство, где",
+    "sec3": "происходит лучшая и более быстрая работа."
+  },
+  "footer": {
+    "privacyPolicy": "Политика конфиденциальности",
+    "termsAndConditions": "Условия использования"
+  },
+  "setting": {
+    "title": "Настройка",
+    "apperance": "Внешний вид",
+    "apperanceDescription": "Настройте внешний вид Notion на вашем устройстве",
+    "language": "Языки",
+    "languageDescription": "Настройте языки, используемые на вашем устройстве"
+  },
+  "placeholder": {
+    "search": "Поиск ..."
+  },
+  "noPagesInside": "Внутри нет страниц.",
+  "untitle": "Без названия",
+  "noDocumentsFound": "Документы не найдены.",
+  "notFound": "Не найдено.",
+  "welcome": "Добро пожаловать в Notion пользователя {{user}}",
+  "dragAndDropToUpload": "Перетащите и бросьте для загрузки изображения",
+  "orSelectFromYourDevice": "Или выберите с вашего устройства",
+  "areYouSure": "Вы уверены?",
+  "thisActionCanNotBeUndone": "Это действие нельзя отменить.",
+  "coverImage": "Изображение обложки",
+  "thisNoteIsLiveOnWeb": "Эта запись доступна в Интернете.",
+  "publishThisNote": "Опубликовать эту запись.",
+  "shareYouWorkWithOther": "Поделитесь своей работой с другими.",
+  "noResultFounded": "Результатов не найдено.",
+  "theme": {
+    "light": "Светлая тема",
+    "dark": "Темная тема",
+    "system": "Системная тема"
+  }
+}

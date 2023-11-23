@@ -27,7 +27,7 @@ const Footer = () => {
           </Button>
         </div>
       </div>
-      <div className="flex gap-4 p-6 pb-14 text-muted-foreground">
+      <div className="flex gap-4 p-6 pb-14 text-muted-foreground flex-wrap">
         {Object.keys(localeNames).map((l: string) => (
           <Button
             key={l}
@@ -36,6 +36,7 @@ const Footer = () => {
             }}
             variant="ghost"
             size="sm"
+            className="whitespace-nowrap"
           >
             {localeNames[l]}
           </Button>
