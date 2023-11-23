@@ -1,0 +1,93 @@
+{
+  "maintitle": "Chào mừng tới Notion của {user}",
+  "loading": {
+    "deleteNote": "Đang xóa ghi chú ...",
+    "restoreNote": "Đang phục hồi ghi chú ...",
+    "createNote": "Đang tạo ghi chú ...",
+    "archiveNote": "Lưu trữ ghi chú ...",
+    "publishNote": "Đang xuất bản ghi chú ...",
+    "unPublishNote": "Gỡ xuất bản ghi chú ..."
+  },
+  "success": {
+    "deleteNote": "Xóa ghi chú thành công!",
+    "restoreNote": "Phục hồi ghi chú thành công!",
+    "createNote": "Tạo ghi chú thành công!",
+    "archiveNote": "Lưu trữ ghi chú thành công!",
+    "publishNote": "Xuất bản ghi chú thành công!",
+    "unPublishNote": "Gỡ xuất bản ghi chú thành công!"
+  },
+  "error": {
+    "deleteNote": "Xóa ghi chú thất bại.",
+    "restoreNote": "Phục hồi ghi chú thất bại.",
+    "createNote": "Tạo ghi chú thất bại.",
+    "archiveNote": "Lưu trữ ghi chú thất bại.",
+    "publishNote": "Xuất bản ghi chú thất bại.",
+    "unPublishNote": "Gỡ xuất bản ghi chú thất bại."
+  },
+  "button": {
+    "restorePage": "Phục hồi trang",
+    "deleteForever": "Xóa vĩnh viễn",
+    "changeCover": "Thay ảnh bìa",
+    "remove": "Xóa",
+    "archive": "Lưu trữ",
+    "addIcon": "Thêm biểu tượng",
+    "addCover": "Thêm ảnh bìa",
+    "logOut": "Đăng xuất",
+    "createNewNote": "Tạo ghi chú",
+    "enterNotion": "Khám phá Notion",
+    "getNotionFree": "Dùng miễn phí",
+    "logIn": "Đăng nhập",
+    "goBack": "Trở lại",
+    "cancel": "Quay lại",
+    "confirm": "Xác nhận",
+    "upload": "Tải lên",
+    "publish": "Xuất bản",
+    "unpublish": "Gỡ xuất bản"
+  },
+  "label": {
+    "thisPageIsInTheTrash": "Trang này đang trong mục đã xóa",
+    "lastEditedBy": "Lần cuối chỉnh sửa bởi: {user}",
+    "search": "Tìm kiếm",
+    "setting": "Cài đặt",
+    "newPage": "Trang mới",
+    "trash": "Thùng rác",
+    "addANewPage": "Thêm trang mới"
+  },
+  "mainBanner": {
+    "sec1": "Ý tưởng, tài liệu và kế hoạch của bạn. Chào mừng bạn đến ",
+    "sec2": "Notion là không gian làm việc được kết nối, nơi",
+    "sec3": "làm việc tốt hơn, nhanh hơn."
+  },
+  "footer": {
+    "privacyPolicy": "Chính sách bảo mật",
+    "termsAndConditions": "Điều khoản và điều kiện"
+  },
+  "setting": {
+    "title": "Cài đặt",
+    "apperance": "Hiển thị",
+    "apperanceDescription": "Tùy chỉnh giao diện của Notion trên thiết bị của bạn",
+    "language": "Ngôn ngữ",
+    "languageDescription": "Tùy chỉnh ngôn ngữ được sử dụng trên thiết bị của bạn"
+  },
+  "noPagesInside": "Không có trang nào bên trong.",
+  "untitle": "Không có tiêu đề",
+  "noDocumentsFound": "Không tìm thấy tài liệu nào.",
+  "notFound": "Không tìm thấy.",
+  "dragAndDropToUpload": "Kéo và thả để tải lên hình ảnh của bạn",
+  "orSelectFromYourDevice": "Hoặc chọn từ thiết bị của bạn",
+  "areYouSure": "Bạn có chắc chắn không?",
+  "thisActionCanNotBeUndone": "Hành động này không thể khôi phục lại.",
+  "coverImage": "Ảnh bìa",
+  "placeholder": {
+    "search": "Tìm kiếm ..."
+  },
+  "thisNoteIsLiveOnWeb": "Ghi chú này có trực tuyến trên web.",
+  "publishThisNote": "Xuất bản ghi chú này.",
+  "shareYouWorkWithOther": "Chia sẻ công việc của bạn với người khác.",
+  "noResultFounded": "Không có kết quả nào được thành lập.",
+  "theme": {
+    "light": "Sáng",
+    "dark": "Tối",
+    "system": "Hệ thống"
+  }
+}

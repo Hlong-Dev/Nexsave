@@ -8,8 +8,10 @@ import { api } from "@/convex/_generated/api";
 import { useParams } from "next/navigation";
 import { Id } from "@/convex/_generated/dataModel";
 import { Button } from "../ui/button";
+import { useTranslations } from "next-intl";
 
 const CoverImageModal = () => {
+  const t = useTranslations();
   const params = useParams();
   const [file, setFile] = useState<File>();
   const update = useMutation(api.documents.update);
@@ -51,7 +53,9 @@ const CoverImageModal = () => {
     <Dialog open={coverImage.isOpen} onOpenChange={onClose}>
       <DialogContent>
         <DialogHeader>
-          <h2 className="text-center text-lg font-semibold">Cover Image</h2>
+          <h2 className="text-center text-lg font-semibold">
+            {t("coverImage")}
+          </h2>
         </DialogHeader>
         <SingleImageDropzone
           disabled={isSubmitting}
@@ -62,7 +66,7 @@ const CoverImageModal = () => {
             setFile(file);
           }}
         />
-        {!!file && <Button onClick={onChange}>Upload</Button>}
+        {!!file && <Button onClick={onChange}>{t("button.upload")}</Button>}
       </DialogContent>
     </Dialog>
   );

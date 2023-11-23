@@ -1,0 +1,93 @@
+{
+  "maintitle": "{user}さんのNotionへようこそ",
+  "loading": {
+    "deleteNote": "ノートを削除しています...",
+    "restoreNote": "ノートを復元しています...",
+    "createNote": "新しいノートを作成しています...",
+    "archiveNote": "ノートをアーカイブしています...",
+    "publishNote": "ノートを公開しています...",
+    "unPublishNote": "ノートの公開を解除しています..."
+  },
+  "success": {
+    "deleteNote": "ノートが削除されました！",
+    "restoreNote": "ノートが復元されました！",
+    "createNote": "ノートが作成されました！",
+    "archiveNote": "ノートがアーカイブされました！",
+    "publishNote": "ノートが公開されました！",
+    "unPublishNote": "ノートが非公開になりました！"
+  },
+  "error": {
+    "deleteNote": "ノートの削除に失敗しました。",
+    "restoreNote": "ノートの復元に失敗しました。",
+    "createNote": "新しいノートの作成に失敗しました。",
+    "archiveNote": "ノートのアーカイブに失敗しました。",
+    "publishNote": "ノートの公開に失敗しました。",
+    "unPublishNote": "ノートの非公開に失敗しました。"
+  },
+  "button": {
+    "restorePage": "ページを復元",
+    "deleteForever": "永久に削除",
+    "changeCover": "カバーを変更",
+    "remove": "削除",
+    "archive": "アーカイブ",
+    "addIcon": "アイコンを追加",
+    "addCover": "カバーを追加",
+    "logOut": "ログアウト",
+    "createNewNote": "新しいノートを作成",
+    "enterNotion": "ノーションを入力",
+    "getNotionFree": "ノーションを無料で入手",
+    "logIn": "ログイン",
+    "goBack": "戻る",
+    "cancel": "キャンセル",
+    "confirm": "確認",
+    "upload": "アップロード",
+    "publish": "公開",
+    "unpublish": "非公開"
+  },
+  "label": {
+    "thisPageIsInTheTrash": "このページはゴミ箱にあります。",
+    "lastEditedBy": "最終編集者: {user}",
+    "search": "検索",
+    "setting": "設定",
+    "newPage": "新しいページ",
+    "trash": "ゴミ箱",
+    "addANewPage": "新しいページを追加"
+  },
+  "mainBanner": {
+    "sec1": "アイデア、ドキュメント、計画。統一されたもの。ようこそ、",
+    "sec2": "Notionは連携したワークスペースで、",
+    "sec3": "より良く、より速く働く場所です。"
+  },
+  "footer": {
+    "privacyPolicy": "プライバシーポリシー",
+    "termsAndConditions": "利用規約"
+  },
+  "setting": {
+    "title": "設定",
+    "apperance": "外観",
+    "apperanceDescription": "デバイス上でNotionの見た目をカスタマイズ",
+    "language": "言語",
+    "languageDescription": "デバイスで使用する言語をカスタマイズ"
+  },
+  "placeholder": {
+    "search": "検索 ..."
+  },
+  "noPagesInside": "中にページがありません。",
+  "untitle": "無題",
+  "noDocumentsFound": "ドキュメントが見つかりません。",
+  "notFound": "見つかりません。",
+  "dragAndDropToUpload": "画像をアップロードするにはドラッグアンドドロップ",
+  "orSelectFromYourDevice": "またはデバイスから選択",
+  "areYouSure": "本当によろしいですか？",
+  "thisActionCanNotBeUndone": "この操作は元に戻せません。",
+  "coverImage": "カバー画像",
+  "thisNoteIsLiveOnWeb": "このノートはWebで公開されています。",
+  "publishThisNote": "このノートを公開する",
+  "shareYouWorkWithOther": "他の人と作業を共有する",
+  "noResultFounded": "結果が見つかりませんでした。",
+  "theme": {
+    "light": "ライト",
+    "dark": "ダーク",
+    "system": "システム"
+  }
+}

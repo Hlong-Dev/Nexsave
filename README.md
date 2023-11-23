@@ -39,7 +39,7 @@ Running follow these simple example steps below
 1. Clone the repo
 
 ```sh
-  git clone https://github.com/ngoc2003/airbnb-clone.git
+  git clone https://github.com/ngoc2003/notion-clone.git
 ```
 
 2. Create `.env` file in main path

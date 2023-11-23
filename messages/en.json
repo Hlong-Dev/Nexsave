@@ -1,0 +1,93 @@
+{
+  "maintitle": "Welcome to {user}'s Notion",
+  "loading": {
+    "deleteNote": "Deleting note ...",
+    "restoreNote": "Restoring note ...",
+    "createNote": "Creating new note ...",
+    "archiveNote": "Archiving note ...",
+    "publishNote": "Publishing note ...",
+    "unPublishNote": "Unpublishing note ..."
+  },
+  "success": {
+    "deleteNote": "Note deleted!",
+    "restoreNote": "Note restored!",
+    "createNote": "Note created!",
+    "archiveNote": "Note archived!",
+    "publishNote": "Note published!",
+    "unPublishNote": "Note unpublished!"
+  },
+  "error": {
+    "deleteNote": "Failed to delete note.",
+    "restoreNote": "Failed to restore note.",
+    "createNote": "Failed to create new note.",
+    "archiveNote": "Failed to archive note.",
+    "publishNote": "Failed to publish note.",
+    "unPublishNote": "Failed to unpublish note."
+  },
+  "button": {
+    "restorePage": "Restore page",
+    "deleteForever": "Delete forever",
+    "changeCover": "Change cover",
+    "remove": "Remove",
+    "archive": "Archive",
+    "addIcon": "Add icon",
+    "addCover": "Add cover",
+    "logOut": "Log out",
+    "createNewNote": "Create new note",
+    "enterNotion": "Enter notion",
+    "getNotionFree": "Get notion free",
+    "logIn": "Log in",
+    "goBack": "Go back",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "upload": "Upload",
+    "publish": "Publish",
+    "unpublish": "Unpublish"
+  },
+  "label": {
+    "thisPageIsInTheTrash": "This page is in the Trash.",
+    "lastEditedBy": "Last edited by: {user}",
+    "search": "Search",
+    "setting": "Setting",
+    "newPage": "New page",
+    "trash": "Trash",
+    "addANewPage": "Add a new page"
+  },
+  "mainBanner": {
+    "sec1": "Your Ideas, Documents & Plans. Unified. Welcome to ",
+    "sec2": "Notion is the connected workspace where",
+    "sec3": "better, faster work happens."
+  },
+  "footer": {
+    "privacyPolicy": "Privacy policy",
+    "termsAndConditions": "Terms & Conditions"
+  },
+  "setting": {
+    "title": "Setting",
+    "apperance": "Apperance",
+    "apperanceDescription": "Customize how Notion look on your device",
+    "language": "Languages",
+    "languageDescription": "Customize which languages used on your device"
+  },
+  "placeholder": {
+    "search": "Search ..."
+  },
+  "noPagesInside": "No pages inside.",
+  "untitle": "Untitle",
+  "noDocumentsFound": "No documents found.",
+  "notFound": "Not found.",
+  "dragAndDropToUpload": "Drag & drop to upload your image",
+  "orSelectFromYourDevice": "Or select from your device",
+  "areYouSure": "Are you sure?",
+  "thisActionCanNotBeUndone": "This action can not be undone.",
+  "coverImage": "Cover Image",
+  "thisNoteIsLiveOnWeb": "This note is live on web.",
+  "publishThisNote": "Publish this note.",
+  "shareYouWorkWithOther": "Share your work with others.",
+  "noResultFounded": "No results founded.",
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  }
+}

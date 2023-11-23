@@ -13,8 +13,10 @@ import {
 } from "../ui/command";
 import { File } from "lucide-react";
 import { useSearch } from "@/hooks/useSearch";
+import { useTranslations } from "next-intl";
 
 const SearchCommand = () => {
+  const t = useTranslations();
   const router = useRouter();
   const documentList = useQuery(api.documents.getSearch);
 
@@ -50,9 +52,9 @@ const SearchCommand = () => {
 
   return (
     <CommandDialog open={isOpen} onOpenChange={onClose}>
-      <CommandInput placeholder="Search . . ." />
+      <CommandInput placeholder={t("placeholder.search")} />
       <CommandList>
-        <CommandEmpty>No results founded.</CommandEmpty>
+        <CommandEmpty>{t("noResultFounded")}</CommandEmpty>
         <CommandGroup heading="Documents">
           {documentList?.map((doc) => (
             <CommandItem
