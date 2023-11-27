@@ -70,10 +70,10 @@ Running follow these simple example steps below
 
 ## Roadmap
 
-- [ ] Multi-language Support
-  - [ ] English
-  - [ ] Vietnamese
-  - [ ] Japanese
+- [x] Multi-language Support
+  - [x] English
+  - [x] Vietnamese
+  - [x] Japanese
 - [ ] Support edit from multiple users
 - [x] Rich text editor
 
@@ -94,6 +94,7 @@ Running follow these simple example steps below
 - Expandable, Collapsable sidebar
 - Full mobile responsiveness
 - Publish your note to the web
+- Multiple languages
 
 <!-- Tools & Versions -->
 
