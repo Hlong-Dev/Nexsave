@@ -64,9 +64,21 @@ Running follow these simple example steps below
 
 7. Open website in [http://localhost:3000/](http://localhost:3000/)
 
-<!-- USAGE EXAMPLES -->
+### Run application with Docker
 
-<!-- ROADMAP -->
+1. Pull docker image
+
+```sh
+  docker pull ngoc2003/notion-clone:latest
+```
+
+2. Run a Docker container
+
+```sh
+  docker run -dp 127.0.0.1:3000:3000 ngoc2003/notion-clone
+```
+
+3. Navigate to [https://127.0.0.1:3000](https://127.0.0.1:3000)
 
 ## Roadmap
 
