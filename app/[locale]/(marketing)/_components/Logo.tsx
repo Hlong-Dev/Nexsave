@@ -25,7 +25,7 @@ const Logo = () => {
         alt="logo"
         className="dark:block hidden"
       />
-          <p className={cn("font-semibold", font.className)}>Nexsave</p>
+          <p className={cn("font-semibold", font.className)}>NoteWorth</p>
     </div>
   );
 };

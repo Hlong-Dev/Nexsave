@@ -1,5 +1,5 @@
 {
-  "maintitle": "Chào mừng tới Nexsave của {user}",
+  "maintitle": "Chào mừng tới NoteWorth của {user}",
   "loading": {
     "deleteNote": "Đang xóa ghi chú ...",
     "restoreNote": "Đang phục hồi ghi chú ...",
@@ -34,7 +34,7 @@
     "addCover": "Thêm ảnh bìa",
     "logOut": "Đăng xuất",
     "createNewNote": "Tạo ghi chú",
-    "enterNotion": "Khám phá Nexsave",
+    "enterNotion": "Khám phá NoteWorth",
     "getNotionFree": "Dùng miễn phí",
     "logIn": "Đăng nhập",
     "goBack": "Trở lại",
@@ -55,7 +55,7 @@
   },
   "mainBanner": {
     "sec1": "Quản lý, chi tiêu và kế hoạch của bạn. Chào mừng bạn đến ",
-    "sec2": "Nexsave là không gian quản lý chi tiêu của bạn, nơi",
+    "sec2": "NoteWorth là không gian quản lý chi tiêu của bạn, nơi",
     "sec3": "chi tiêu và lập kế hoạch tốt hơn, nhanh hơn."
   },
   "footer": {
@@ -65,7 +65,7 @@
   "setting": {
     "title": "Cài đặt",
     "apperance": "Hiển thị",
-    "apperanceDescription": "Tùy chỉnh giao diện của Notion trên thiết bị của bạn",
+    "apperanceDescription": "Tùy chỉnh giao diện của NoteWorth trên thiết bị của bạn",
     "language": "Ngôn ngữ",
     "languageDescription": "Tùy chỉnh ngôn ngữ được sử dụng trên thiết bị của bạn"
   },
