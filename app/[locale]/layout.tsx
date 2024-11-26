@@ -14,8 +14,8 @@ import { locales } from "@/i18n";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Notion",
-  description: "Notion website cloned by Bui Ngoc",
+    title: "Nexsave",
+    description: "Nexsave website by HoangLong",
 };
 
 export default async function RootLayout({

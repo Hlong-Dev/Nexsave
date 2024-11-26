@@ -1,5 +1,5 @@
 {
-  "maintitle": "Chào mừng tới Notion của {user}",
+  "maintitle": "Chào mừng tới Nexsave của {user}",
   "loading": {
     "deleteNote": "Đang xóa ghi chú ...",
     "restoreNote": "Đang phục hồi ghi chú ...",
@@ -34,7 +34,7 @@
     "addCover": "Thêm ảnh bìa",
     "logOut": "Đăng xuất",
     "createNewNote": "Tạo ghi chú",
-    "enterNotion": "Khám phá Notion",
+    "enterNotion": "Khám phá Nexsave",
     "getNotionFree": "Dùng miễn phí",
     "logIn": "Đăng nhập",
     "goBack": "Trở lại",
@@ -54,9 +54,9 @@
     "addANewPage": "Thêm trang mới"
   },
   "mainBanner": {
-    "sec1": "Ý tưởng, tài liệu và kế hoạch của bạn. Chào mừng bạn đến ",
-    "sec2": "Notion là không gian làm việc được kết nối, nơi",
-    "sec3": "làm việc tốt hơn, nhanh hơn."
+    "sec1": "Quản lý, chi tiêu và kế hoạch của bạn. Chào mừng bạn đến ",
+    "sec2": "Nexsave là không gian quản lý chi tiêu của bạn, nơi",
+    "sec3": "chi tiêu và lập kế hoạch tốt hơn, nhanh hơn."
   },
   "footer": {
     "privacyPolicy": "Chính sách bảo mật",
