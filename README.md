@@ -39,7 +39,7 @@ Running follow these simple example steps below
 1. Clone the repo
 
 ```sh
-  git clone https://github.com/ngoc2003/notion-clone.git
+  git clone https://github.com/Hlong-Dev/Nexsave.git
 ```
 
 2. Create `.env` file in main path
@@ -141,11 +141,7 @@ Don't forget to give the project a star! Thanks again!
 
 Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
-<!-- CONTACT -->
 
-## Contact
-
-Bui Ngoc - [Facebook](https://www.facebook.com/Bui.Ngoc.1302/)
 
 [contributors-shield]: https://img.shields.io/github/contributors/ngoc2003/airbnb-clone.svg?style=for-the-badge
 [contributors-url]: https://github.com/ngoc2003/airbnb-clone/graphs/contributors
